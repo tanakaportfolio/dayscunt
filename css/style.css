@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+body{width: 100%;
+  margin-right: auto;
+margin-left : auto;
+text-align: center;
+padding: 0 20px;}
+
+h1{
+  text-align: center;
+  height: 50px;
+  margin-top: 5px;
+  /* background-color: violet; */
+  padding-top:8px;
+  font-size: 28px;
+}
+
+h2{
+  text-align: center;
+  /* border: green 3px solid; */
+ margin: 0;
+ 
+}
+
+p {
+  margin: 0;
+}
+
+.today{
+  font-size: 36px;
+  /* background-color: red; */
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.today > p {
+  text-align: center;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 80px;
+  width: 100%;
+  margin-bottom:20px;
+}
+
+.time-left{
+  width: 40%;
+  /* border: palevioletred 2px solid; */
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.time-left2{
+  width: 40%;
+  /* border: palevioletred 2px solid; */
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.time-right{
+  width: 60%;
+  /* border: green 2px solid; */
+  font-size: 32px;
+  padding-top: 15px;
+ 
+}
+
+
+
+
+
+
+.time8h {
+  background-color: #87cefa;
+  /* border: 2px red solid; */
+  
+  
+}
+
+
+.time48h {
+  background-color:#c8e7fa;
+  /* border: 2px red solid; */
+}
+
+.time3d {
+  background-color:#96d4fa;
+  /* border: 2px red solid; */
+}
+
+.time5d {
+  background-color:#64c0fa;
+ 
+  /* border: 2px red solid; */
+}
+
+
+
+.time7d {
+  background-color:#32adfa;
+
+  /* border: 2px red solid; */
+}
+
+.time14d{ 
+  background-color:#009afa;
+  
+  /* border: 2px red solid; */
+}
+
+.time30d{ 
+  background-color: #3d96ce;
+  /* border: 2px red solid; */
+}
+
+
